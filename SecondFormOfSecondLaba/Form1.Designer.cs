@@ -75,9 +75,8 @@
             // textBox1
             // 
             textBox1.Location = new Point(132, 97);
-            textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(310, 34);
+            textBox1.Size = new Size(310, 27);
             textBox1.TabIndex = 4;
             // 
             // button1
@@ -102,7 +101,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Задача на str";
             FormClosed += Form1_FormClosed;
             Load += Form1_Load;
             ResumeLayout(false);
