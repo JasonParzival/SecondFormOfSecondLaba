@@ -78,6 +78,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(310, 27);
             textBox1.TabIndex = 4;
+            textBox1.KeyDown += textBox1_KeyDown;
             // 
             // button1
             // 
@@ -103,7 +104,6 @@
             Name = "Form1";
             Text = "Задача на str";
             FormClosed += Form1_FormClosed;
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -28,6 +28,14 @@ namespace SecondFormOfSecondLaba
             Properties.Settings.Default.StringTextBox = textBox1.Text;
             Properties.Settings.Default.Save();
         }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                button1.PerformClick();
+            }
+        }
     }
 
     public class Logic
