@@ -16,9 +16,6 @@ namespace SecondFormOfSecondLaba
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Properties.Settings.Default.StringTextBox = textBox1.Text;
-            Properties.Settings.Default.Save();
-
             string message = Logic.Message(this.textBox1.Text);
             MessageBox.Show(message);
         }
